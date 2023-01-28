@@ -4,7 +4,7 @@ public class Main {
         int deposit = 900;
 
         int bonus = 0;
-        if ( deposit > 1000 ) {
+        if ( 1000 < deposit ) {
             bonus = deposit / 100;
         }
         int amount = account + deposit + bonus;
