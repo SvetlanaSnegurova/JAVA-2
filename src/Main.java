@@ -7,8 +7,8 @@ public class Main {
         if ( deposit > 1000 ) {
             bonus = deposit / 100;
         }
-        int amout = account + deposit + bonus;
+        int amount = account + deposit + bonus;
         System.out.println("Итоговый бонус: " + bonus);
-        System.out.println("Итоговая сумма на счете: " + amout);
+        System.out.println("Итоговая сумма на счете: " + amount);
     }
 }
